@@ -31,9 +31,8 @@ wheels/
 # Ignore all data files to avoid bloating the repository
 data/raw/*
 !data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-data/
+
+
 
 # Specific data file extensions
 *.csv
