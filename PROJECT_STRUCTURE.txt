@@ -1,0 +1,41 @@
+FUTURE_DS_01/
+│
+├── 📁 data/                              # Data storage
+│   ├── raw/                              # Original downloaded data (place your CSV/Excel here)
+│   ├── processed/                        # Cleaned data ready for analysis
+│   └── README.md                         # Data documentation
+│
+├── 📁 notebooks/                         # Jupyter notebooks for analysis
+│   ├── 01_data_loading.ipynb           # Step 1: Load and inspect data
+│   ├── 02_data_cleaning.ipynb          # Step 2: Clean the data
+│   ├── 03_exploratory_analysis.ipynb    # Step 3: Explore patterns
+│   └── 06_dashboard.ipynb              # Step 6: Create dashboard
+│
+├── 📁 src/                               # Reusable Python modules
+│   ├── __init__.py
+│   ├── data_loader.py                   # Functions to load data
+│   ├── data_cleaner.py                  # Functions to clean data
+│   └── visualizations.py                # Functions to create charts
+│
+├── 📁 reports/                           # Output files
+│   ├── visualizations/                  # Save your charts here
+│   └── insights/                        # Save your insights here
+│
+├── 📄 README.md                          # Main project documentation
+├── 📄 START_HERE.md                      # Quick start guide
+├── 📄 requirements.txt                   # Python dependencies
+└── 📄 .gitignore                        # Git ignore rules
+
+═══════════════════════════════════════════════════════════════
+
+📝 NEXT STEPS:
+═══════════════════════════════════════════════════════════════
+
+1. ⬇️  Download your e-commerce dataset from Kaggle
+2. 📂 Place it in: data/raw/your_data.csv
+3. 🐍 Install dependencies: pip install -r requirements.txt
+4. 📓 Open Jupyter: jupyter notebook
+5. ▶️  Start with: notebooks/01_data_loading.ipynb
+
+═══════════════════════════════════════════════════════════════
+

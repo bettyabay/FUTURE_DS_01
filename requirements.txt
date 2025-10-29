@@ -1,0 +1,22 @@
+# Data Manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Data Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Jupyter
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.22.0
+
+# Data Analysis Tools
+scipy>=1.10.0
+
+# Excel Support (optional)
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+streamlit 
